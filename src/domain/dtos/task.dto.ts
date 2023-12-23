@@ -1,4 +1,4 @@
-export class Task {
+export interface TaskDto {
   uuid: string;
   description: string;
   completed: boolean;

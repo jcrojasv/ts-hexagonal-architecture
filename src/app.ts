@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { config } from "dotenv";
-import configEnvs from "./config";
+import configEnvs from "./infraestructure/config";
 
 config();
 const app: express.Application = express();
